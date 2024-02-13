@@ -38,11 +38,16 @@ pip install seaborn
 
 Features
 
-*Data Preprocessing:*
+Data Collection: Gather historical sales data, including dates, store information, holiday indicators, and markdown details for various products.
+
+Data Preprocessing: Clean and preprocess the sales data, handle missing values, encode categorical variables, and format the data for analysis.
 
 Data Understanding: The dataset comprises store, sales, and features data, offering details on store attributes like name, department, date, type, size, weekly sales, and environmental factors such as holiday status, temperature, fuel price, multiple markdowns, CPI, and unemployment. The primary focus is on predicting weekly sales, serving as the target variable for our modeling endeavors. This initial exploration forms the basis for subsequent data preprocessing and model development.
 
-Encoding and Data Type Conversion: The process involves preparing categorical features for modeling by transforming them into numerical representations, considering their inherent nature and relationship with the target variable. Simultaneously, data types are converted to align with the modeling process requirements, ensuring seamless integration and compatibility. This step facilitates the effective utilization of categorical information in the subsequent stages of the project.
+Exploratory Data Analysis (EDA): Perform EDA to understand sales patterns, identify trends, and explore the impact of holidays and markdowns on sales. Key analyses include:
+Distribution of sales across stores and time periods.
+Correlation between sales and holiday weeks, as well as markdown amounts.
+Seasonal trends and fluctuations in sales performance.
 
 Handling Null Values: Notably, the 'MarkDown' columns present a challenge with over 50% null values, while other columns exhibit minimal null values. To address this, we employ machine learning models to predict and impute the missing values, ensuring a more complete and robust dataset for subsequent analysis and modeling. This strategic approach allows us to mitigate the impact of missing data on the overall quality of our dataset.
 
