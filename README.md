@@ -12,7 +12,8 @@ Features
 Contributing
 License
 Contact
-Key Technologies and Skills
+
+*Key Technologies and Skills*
 
 Python
 Numpy
@@ -41,17 +42,11 @@ Features
 
 Data Understanding: The dataset comprises store, sales, and features data, offering details on store attributes like name, department, date, type, size, weekly sales, and environmental factors such as holiday status, temperature, fuel price, multiple markdowns, CPI, and unemployment. The primary focus is on predicting weekly sales, serving as the target variable for our modeling endeavors. This initial exploration forms the basis for subsequent data preprocessing and model development.
 
-Exploratory Data Analysis (EDA): Perform EDA to understand sales patterns, identify trends, and explore the impact of holidays and markdowns on sales. Key analyses include:
-1.Distribution of sales across stores and time periods.
-2.Correlation between sales and holiday weeks, as well as markdown amounts.
-3.Seasonal trends and fluctuations in sales performance.
-
 Encoding and Data Type Conversion: The process involves preparing categorical features for modeling by transforming them into numerical representations, considering their inherent nature and relationship with the target variable. Simultaneously, data types are converted to align with the modeling process requirements, ensuring seamless integration and compatibility. This step facilitates the effective utilization of categorical information in the subsequent stages of the project.
 
 Handling Null Values: Notably, the 'MarkDown' columns present a challenge with over 50% null values, while other columns exhibit minimal null values. To address this, we employ machine learning models to predict and impute the missing values, ensuring a more complete and robust dataset for subsequent analysis and modeling. This strategic approach allows us to mitigate the impact of missing data on the overall quality of our dataset.
 
-Feature Improvement: Emphasizing enhanced modeling effectiveness, we concentrate on refining the dataset. This involves creating new features to extract deeper insights and enhance overall dataset efficiency. Evaluation, conducted through Seaborn's Heatmap, reveals that, a
-side from Size and Type with correlation values of 0.21 and 0.17 (absolute value) respectively, no other columns exhibit a strong correlation with weekly sales. This underscores the need for strategic feature enhancement to bolster the predictive power of our model.
+Feature Improvement: Emphasizing enhanced modeling effectiveness, we concentrate on refining the dataset. This involves creating new features to extract deeper insights and enhance overall dataset efficiency. Evaluation, conducted through Seaborn's Heatmap, reveals that, a side from Size and Type with correlation values of 0.21 and 0.17 (absolute value) respectively, no other columns exhibit a strong correlation with weekly sales. This underscores the need for strategic feature enhancement to bolster the predictive power of our model.
 
 *Machine Learning Regression Model:*
 
