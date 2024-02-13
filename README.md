@@ -1,7 +1,7 @@
 **Retail Sales Forecast**
 *Introduction*
 
-Retail Sales Forecast employs advanced machine learning techniques, prioritizing careful data preprocessing, feature enhancement, and comprehensive algorithm assessment and selection. The streamlined Streamlit application integrates Exploratory Data Analysis (EDA) to find trends, patterns, and data insights. It offers users interactive tools to explore top-performing stores and departments, conduct insightful feature comparisons, and obtain personalized sales forecasts. With a commitment to delivering actionable insights, the project aims to optimize decision-making processes within the dynamic retail landscape.
+In this project, we're diving into the world of retail sales prediction, where we use historical data to forecast future sales trends. It's like peering into a crystal ball to anticipate what customers will buy next, helping businesses make informed decisions and stay ahead in the competitive retail landscape.
 
 *Table of Contents*
 
@@ -21,9 +21,9 @@ Scikit-Learn
 Plotly
 Matplotlib
 Seaborn
-Streamlit
 Pickle
-Installation
+
+*Installation*
 
 To run this project, you need to install the following packages:
 
@@ -34,12 +34,17 @@ pip install xgboost
 pip install plotly
 pip install matplotlib
 pip install seaborn
-pip install streamlit
+
 Features
 
 *Data Preprocessing:*
 
 Data Understanding: The dataset comprises store, sales, and features data, offering details on store attributes like name, department, date, type, size, weekly sales, and environmental factors such as holiday status, temperature, fuel price, multiple markdowns, CPI, and unemployment. The primary focus is on predicting weekly sales, serving as the target variable for our modeling endeavors. This initial exploration forms the basis for subsequent data preprocessing and model development.
+
+Exploratory Data Analysis (EDA): Perform EDA to understand sales patterns, identify trends, and explore the impact of holidays and markdowns on sales. Key analyses include:
+1.Distribution of sales across stores and time periods.
+2.Correlation between sales and holiday weeks, as well as markdown amounts.
+3.Seasonal trends and fluctuations in sales performance.
 
 Encoding and Data Type Conversion: The process involves preparing categorical features for modeling by transforming them into numerical representations, considering their inherent nature and relationship with the target variable. Simultaneously, data types are converted to align with the modeling process requirements, ensuring seamless integration and compatibility. This step facilitates the effective utilization of categorical information in the subsequent stages of the project.
 
